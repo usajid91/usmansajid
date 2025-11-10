@@ -1,0 +1,17 @@
+Portfolio/
+├── index.html
+├── styles.css
+├── script.js
+├── profile.jpg
+├── CV - Usman Sajid.pdf
+├── blog/
+│   ├── power-bi-best-practices.html
+│   ├── excel-data-cleaning.html
+│   ├── python-eda-guide.html
+│   └── images/
+│       ├── power-bi-best-practices.jpg
+│       ├── excel-data-cleaning.jpg
+│       └── python-eda-guide.jpg
+├── Excel/
+├── Power BI/
+└── SQL/
