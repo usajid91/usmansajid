@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Best Practices - Usman Sajid</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .blog-post {
+            max-width: 800px;
+            margin: 100px auto 50px;
+            padding: 0 20px;
+        }
+        .blog-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .blog-header h1 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        .blog-meta {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        .blog-content {
+            line-height: 1.8;
+        }
+        .blog-content h2 {
+            color: var(--primary);
+            margin: 2rem 0 1rem;
+        }
+        .blog-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+        }
+        .back-to-blog {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 2rem;
+            transition: gap 0.3s;
+        }
+        .back-to-blog:hover {
+            gap: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2><a href="../index.html" style="text-decoration: none; color: inherit;">Muhammad Usman <span>Sajid</span></a></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#blog">Blog</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="blog-post">
+        <header class="blog-header">
+            <h1> Data Cleaning Techniques in Excel </h1>
+            <div class="blog-meta">
+                Published on November 16, 2025 | 5 min read
+            </div>
+        </header>
+        
+<div class="blog-content">
+    <img src="images/excel-data-cleaning.jpg" alt="Excel Data Cleaning" width="500">
+
+    <h2>Why Data Cleaning Matters in Excel</h2>
+    <p>Clean data is the foundation of accurate analysis. Whether you're preparing reports, dashboards, or business insights, messy data can lead to wrong conclusions. Excel offers powerful tools to help you clean, organize, and prepare your data so you can work confidently and efficiently.</p>
+
+    <h2>Understand Your Dataset Before You Begin</h2>
+    <p>Always start by exploring your data. Check column names, identify missing values, and observe how different fields are formatted. This step helps you plan your cleaning process and prevents mistakes. A quick review also helps you spot problems such as blank rows, inconsistent formats, or out-of-range values.</p>
+
+    <h2>Fix Inconsistencies and Standardize Formats</h2>
+    <p>Raw data often comes with formatting issues—numbers stored as text, dates in different styles, or names typed in various ways. Excel functions like TRIM, PROPER, CLEAN, TEXT, and VALUE help convert messy values into clean, consistent formats. Standardized data is easier to sort, filter, and analyze, especially when using formulas or pivot tables.</p>
+
+    <h2>Remove Duplicates and Unnecessary Entries</h2>
+    <p>Duplicate entries can create misleading results. Excel’s “Remove Duplicates” tool helps eliminate repeated rows with just one click. You should also remove blank rows, temporary notes, or extra headers. Keeping only the relevant rows ensures your dataset stays organized and reliable.</p>
+
+    <h2>Use Excel Tools to Detect and Correct Errors</h2>
+    <p>Excel offers several built-in tools that make error checking easy. Conditional formatting can highlight unusual values, missing entries, or incorrect data types. Functions like IFERROR, ISNUMBER, or FIND help you identify problems quickly. These tools let you clean large datasets without manually checking each cell.</p>
+
+    <h2>Create a Clean Final Version</h2>
+    <p>After completing the cleaning process, it's a good practice to prepare a neat final version. Remove helper columns, clear unnecessary formatting, and keep only clean, structured data. Save a copy of the raw data separately, so you can always go back if needed. A tidy final dataset makes your analysis easier and more trustworthy.</p>
+
+    <p>With the right approach and a few simple tools, Excel can turn even the messiest data into a clean, reliable dataset. Good data cleaning saves time, reduces errors, and helps you make better decisions with confidence.</p>
+</div>
+
+        
+        <a href="../index.html#blog" class="back-to-blog">
+            <i class="fas fa-arrow-left"></i> Back to Blog
+        </a>
+    </article>
+
+    <script src="../script.js"></script>
+</body>
+</html>
